@@ -7,7 +7,7 @@ server:
   port: 8001
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
-  type-aliases-package: com.tn.entities    # 所有Entity别名类所在包
+  type-aliases-package: com.tn    # 所有Entity别名类所在包
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
 spring:
@@ -35,8 +35,8 @@ eureka:
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
-  app.name: cn21-microservicecloud
-  company.name: cn21.com
+  app.name: haoming-microservicecloud
+  company.name: haoming.org.cn
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
   
@@ -45,7 +45,7 @@ server:
   port: 8001
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
-  type-aliases-package: com.tn.entities    # 所有Entity别名类所在包
+  type-aliases-package: com.tn    # 所有Entity别名类所在包
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
 spring:
@@ -69,7 +69,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka
   instance:
-    instance-id: dept-8001.com   #自定义服务名称信息
+    instance-id: config-dept-8001.com   #自定义服务名称信息
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
