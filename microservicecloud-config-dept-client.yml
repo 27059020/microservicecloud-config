@@ -73,7 +73,7 @@ eureka:
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
-  app.name: cn21-microservicecloud
-  company.name: cn21.com
+  app.name: haoming_microservicecloud
+  company.name: haoming.org.cn
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
